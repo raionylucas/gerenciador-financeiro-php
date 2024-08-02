@@ -1,0 +1,37 @@
+#cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+.card {
+    background-color: #F0F0F0;
+    min-width: 100%;
+    padding: 24px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card .icon {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.card-incomes h3 {
+    color: var(--green);
+}
+
+.card-expenses h3{
+    color: var(--red);
+}
+
+@media screen and (max-width: 767px) {
+    #cards {
+        grid-template-columns: 1fr;
+    }
+}
+

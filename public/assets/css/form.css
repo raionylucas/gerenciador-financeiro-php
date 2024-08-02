@@ -1,0 +1,96 @@
+#forms{
+    width: 100%;
+    padding: 48px 0;
+}
+
+form {
+    width: 100%;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+label {
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input {
+    padding: 12px;
+    border: none;
+    background-color: var(--partial-white);
+    border-radius: 6px;
+    border: 1px solid #d3d3d3;
+
+    font-size: 1.6rem;
+}
+
+input:focus{
+    outline: 1px solid #d3d3d3;
+}
+
+/* INPUT DE VALOR */
+input[type="number"]::-webkit-inner-spin-button{
+    display: none;
+}
+
+/* INPUT DE CATEGORIA */
+select {
+    padding: 12px;
+    border: none;
+    background-color: var(--partial-white);
+    border-radius: 6px;
+    border: 1px solid #d3d3d3;
+    cursor: pointer;
+
+    font-size: 1.6rem;
+}
+
+select:focus{
+    outline: 1px solid #d3d3d3;
+}
+
+/* INPUT DE TIPO */
+input[type="radio"]{
+    cursor: pointer;
+}
+
+.label-input-type{
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.input-type-content {
+    display: flex;
+
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* BOTÃO (INPUT DE SUBMIT) */
+input[type="submit"]{
+    background-color: var(--black);
+    padding: 12px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+    form {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    form {
+        grid-template-columns: 1fr;
+    }
+}
+
