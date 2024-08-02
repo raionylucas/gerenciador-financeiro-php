@@ -7,3 +7,7 @@ Bem-vindo ao Gerenciador Financeiro, um sistema desenvolvido para gerenciar fina
 - Banco de Dados: MySQL
 - Padrão de Projeto: MVC (Model-View-Controller)
 
+## Interface
+
+<img src="URL_da_Imagem" alt="Texto Alternativo">
+
