@@ -9,5 +9,5 @@ Bem-vindo ao Gerenciador Financeiro, um sistema desenvolvido para gerenciar fina
 
 ## Interface
 
-<img src="URL_da_Imagem" alt="Texto Alternativo">
+<img src="https://github.com/raionylucas/gerenciador-financeiro-php/blob/main/public/assets/images/interface.png" alt="Texto Alternativo">
 
