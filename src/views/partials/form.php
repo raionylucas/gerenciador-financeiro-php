@@ -5,7 +5,7 @@
         </label>
 
         <label for="value">
-            <input type="number" name="value" id="input_value" placeholder="R$0,00" required>
+            <input type="number" name="value" id="input_value" placeholder="R$0,00" required step="0.01">
         </label>
 
         <label for="date">
