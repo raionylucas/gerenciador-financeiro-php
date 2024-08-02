@@ -1,33 +1,9 @@
-## Instalação
-Você pode clonar este repositório OU baixar o .zip
+## Sobre o sistema
+Bem-vindo ao Gerenciador Financeiro, um sistema desenvolvido para gerenciar finanças pessoais e/ou empresariais. Este projeto foi criado para aplicar conceitos de CRUD (Create, Read, Update, Delete) e seguir o padrão de desenvolvimento MVC (Model-View-Controller) usando PHP e Composer.
 
-Ao descompactar, é necessário rodar o **composer** pra instalar as dependências e gerar o *autoload*.
+## Tecnologias
+- Linguagem: PHP
+- Gerenciador de Dependências: Composer
+- Banco de Dados: MySQL
+- Padrão de Projeto: MVC (Model-View-Controller)
 
-Vá até a pasta do projeto, pelo *prompt/terminal* e execute:
-> composer install
-
-Depois é só aguardar.
-
-## Configuração
-Todos os arquivos de **configuração** e aplicação estão dentro da pasta *src*.
-
-As configurações de Banco de Dados e URL estão no arquivo *src/Config.php*
-
-É importante configurar corretamente a constante *BASE_DIR*:
-> const BASE_DIR = '/**PastaDoProjeto**/public';
-
-## Uso
-Você deve acessar a pasta *public* do projeto.
-
-O ideal é criar um ***alias*** específico no servidor que direcione diretamente para a pasta *public*.
-
-## Modelo de MODEL
-```php
-<?php
-namespace src\models;
-use \core\Model;
-
-class Usuario extends Model {
-
-}
-```
