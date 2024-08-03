@@ -1,5 +1,5 @@
 ## Sobre o sistema
-Bem-vindo ao Gerenciador Financeiro, um sistema desenvolvido para gerenciar finanças pessoais. Este projeto foi criado para aplicar conceitos de CRUD (Create, Read, Update, Delete) e seguir o padrão de desenvolvimento MVC (Model-View-Controller) usando PHP e Composer.
+O projeto surgiu para resolver um problema de desorganização financeira que estava ocorrendo em minha casa. Utilizando os conceitos de CRUD (Create, Read, Update, Delete) e o padrão de desenvolvimento MVC (Model-View-Controller) com PHP e Composer, foi possível criar um sistema intuitivo. Esse sistema armazena todas as entradas e saídas financeiras do usuário, registrando o balanço entre o total de entradas e saídas. Com isso, o usuário pode monitorar seus gastos e tomar decisões financeiras mais informadas.
 
 ## Tecnologias
 - Linguagem: PHP
